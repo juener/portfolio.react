@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "items": [
+        {
+          "id": 101,
+          "name": "Coffee",
+          "priceInCents": 199
+        }, 
+        {
+          "id": 102,
+          "name": "Tea",
+          "priceInCents": 199
+        }, 
+        {
+          "id": 103,
+          "name": "Water",
+          "priceInCents": 199
+        }, 
+        {
+          "id": 104,
+          "name": "Water",
+          "priceInCents": 199
+        },
+        {
+          "id": 105,
+          "name": "Water",
+          "priceInCents": 199
+        },
+        {
+          "id": 106,
+          "name": "Water",
+          "priceInCents": 199
+        },
+        {
+          "id": 107,
+          "name": "Water",
+          "priceInCents": 199
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tea",
+      "items": [
+        {
+          "id": 201,
+          "name": "Tea",
+          "priceInCents": 199
+        }, 
+        {
+          "id": 202,
+          "name": "Tea",
+          "priceInCents": 199
+        }
+      ]
+    }, 
+    {
+      "id": 3,
+      "name": "Soft Drinks",
+      "items": [
+        {
+          "id": 301,
+          "name": "Cola",
+          "priceInCents": 199
+        },
+        {
+          "id": 302,
+          "name": "Fanta",
+          "priceInCents": 199
+        },
+        {
+          "id": 303,
+          "name": "Sprite",
+          "priceInCents": 199
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Alcohol",
+      "items": [
+        {
+          "id": 401,
+          "name": "Beer",
+          "priceInCents": 199
+        },
+        {
+          "id": 402,
+          "name": "Wine",
+          "priceInCents": 199
+        },
+        {
+          "id": 403,
+          "name": "Spirits",
+          "priceInCents": 199
+        }
+      ]
+    }
+  ]
+}
