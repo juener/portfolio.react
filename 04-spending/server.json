@@ -1,0 +1,40 @@
+{
+  "transactions": [
+    {
+      "id": "2",
+      "description": "Rent",
+      "amountInCents": 599,
+      "currency": "USD",
+      "dueDate": "2025-01-01",
+      "category": "health",
+      "type": "expense"
+    },
+    {
+      "id": "3",
+      "description": "Groceries",
+      "amountInCents": 50,
+      "currency": "USD",
+      "dueDate": "2025-01-01",
+      "category": "food",
+      "type": "expense"
+    },
+    {
+      "id": "067e",
+      "description": "Restaurant",
+      "amountInCents": "333",
+      "dueDate": "1111-11-11",
+      "currency": "BRL",
+      "category": "food",
+      "type": "expense"
+    },
+    {
+      "id": "00e5",
+      "description": "Description",
+      "amountInCents": "2234",
+      "dueDate": "1111-11-11",
+      "currency": "BRL",
+      "category": "health",
+      "type": "expense"
+    }
+  ]
+}
