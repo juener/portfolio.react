@@ -1,12 +1,20 @@
 import { Input } from '@/components/Input'
-import { Button } from '../../Button'
 import { TransactionsFilterContainerStyled } from './styles'
 
-export function TransactionsFilter() {
+type TransactionsFilterProps = {
+	searchQuery: string
+	onSearchChange: (value: string) => void
+}
+
+export function TransactionsFilter({ searchQuery, onSearchChange }: TransactionsFilterProps) {
 	return (
 		<TransactionsFilterContainerStyled>
-			<Input type='text' placeholder='Search' />
-			<Button>Search</Button>
+			<Input
+				type='text'
+				placeholder='Search by description or category...'
+				value={searchQuery}
+				onChange={(e) => onSearchChange(e.target.value)}
+			/>
 		</TransactionsFilterContainerStyled>
 	)
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const TransactionsFilterContainerStyled = styled.form`
+export const TransactionsFilterContainerStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;

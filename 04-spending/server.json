@@ -19,15 +19,6 @@
       "type": "income"
     },
     {
-      "id": "af9c",
-      "description": "Salary",
-      "amountInCents": "100",
-      "dueDate": "1111-11-11",
-      "currency": "EUR",
-      "category": "entertainment",
-      "type": "income"
-    },
-    {
       "id": "4a33",
       "description": "fdfddd",
       "amountInCents": "22",

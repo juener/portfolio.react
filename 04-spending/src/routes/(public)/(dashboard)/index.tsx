@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useState } from 'react'
 import { SummarySection } from '@/components/SummarySection'
 import { TransactionsActions } from '@/components/TransactionsActions'
 import { TransactionsTable } from '@/components/TransactionsTable'
@@ -8,11 +9,13 @@ export const Route = createFileRoute('/(public)/(dashboard)/')({
 })
 
 function RouteComponent() {
+	const [searchQuery, setSearchQuery] = useState('')
+
 	return (
 		<>
 			<SummarySection />
-			<TransactionsActions />
-			<TransactionsTable />
+			<TransactionsActions searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+			<TransactionsTable searchQuery={searchQuery} />
 		</>
 	)
 }
