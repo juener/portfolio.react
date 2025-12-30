@@ -14,9 +14,10 @@ import { TransactionModalContentStyled, TransactionModalOverlayStyled } from './
 
 interface TransactionModalProps {
 	transaction?: Transaction
+	onOpenChange: (open: boolean) => void
 }
 
-export function TransactionModal({ transaction }: TransactionModalProps) {
+export function TransactionModal({ transaction, onOpenChange }: TransactionModalProps) {
 	const {
 		register,
 		handleSubmit,
@@ -43,6 +44,7 @@ export function TransactionModal({ transaction }: TransactionModalProps) {
 		} else {
 			postTransaction.mutate(data as TransactionCreation)
 		}
+		onOpenChange(false)
 	}
 
 	return (
@@ -178,7 +180,10 @@ export function TransactionModal({ transaction }: TransactionModalProps) {
 						<Button
 							variant='destructive'
 							type='button'
-							onClick={() => deleteTransaction.mutate(transaction.id)}
+							onClick={() => {
+								deleteTransaction.mutate(transaction.id)
+								onOpenChange(false)
+							}}
 						>
 							Delete Transaction
 						</Button>

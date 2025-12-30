@@ -1,9 +1,23 @@
-import { SummaryCardContainerStyled } from "./styles";
+import { formatValue } from '@/format-values'
+import { SummaryCardContainerStyled } from './styles'
 
-export function SummaryCard() {
-  return (
-    <SummaryCardContainerStyled>
-      <h1>Summary Card</h1>
-    </SummaryCardContainerStyled>
-  )
+interface SummaryCardProps {
+	currency: 'USD' | 'BRL' | 'EUR' | 'GBP'
+	value: number
+	convertedValue: number
+}
+
+export function SummaryCard({ currency, value, convertedValue }: SummaryCardProps) {
+	return (
+		<SummaryCardContainerStyled>
+			<p>
+				<span>Rows by {currency}:</span>
+				{formatValue(value)}
+			</p>
+			<p>
+				<span>Total converted:</span>
+				{formatValue(convertedValue)}
+			</p>
+		</SummaryCardContainerStyled>
+	)
 }

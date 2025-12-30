@@ -3,38 +3,65 @@
     {
       "id": "2",
       "description": "Rent",
-      "amountInCents": 599,
+      "amountInCents": "2002",
       "currency": "USD",
       "dueDate": "2025-01-01",
       "category": "health",
-      "type": "expense"
+      "type": "income"
     },
     {
-      "id": "3",
-      "description": "Groceries",
-      "amountInCents": 50,
-      "currency": "USD",
-      "dueDate": "2025-01-01",
-      "category": "food",
-      "type": "expense"
-    },
-    {
-      "id": "067e",
-      "description": "Restaurant",
-      "amountInCents": "333",
+      "id": "1377",
+      "description": "Salary",
+      "amountInCents": "10",
       "dueDate": "1111-11-11",
-      "currency": "BRL",
-      "category": "food",
-      "type": "expense"
+      "currency": "EUR",
+      "category": "entertainment",
+      "type": "income"
     },
     {
-      "id": "00e5",
-      "description": "Description",
-      "amountInCents": "2234",
+      "id": "af9c",
+      "description": "Salary",
+      "amountInCents": "100",
       "dueDate": "1111-11-11",
-      "currency": "BRL",
+      "currency": "EUR",
+      "category": "entertainment",
+      "type": "income"
+    },
+    {
+      "id": "4a33",
+      "description": "fdfddd",
+      "amountInCents": "22",
+      "dueDate": "1111-11-11",
+      "currency": "EUR",
       "category": "health",
+      "type": "income"
+    },
+    {
+      "id": "e350",
+      "description": "asdf",
+      "amountInCents": "1",
+      "dueDate": "1111-11-11",
+      "currency": "EUR",
+      "category": "other",
       "type": "expense"
+    },
+    {
+      "id": "b07b",
+      "description": "tst",
+      "amountInCents": "100",
+      "dueDate": "1111-11-11",
+      "currency": "BRL",
+      "category": "transport",
+      "type": "income"
+    },
+    {
+      "id": "ee30",
+      "description": "Bonus",
+      "amountInCents": "65000",
+      "dueDate": "2222-11-11",
+      "currency": "BRL",
+      "category": "transport",
+      "type": "income"
     }
   ]
 }

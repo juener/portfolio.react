@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const SummaryCardContainerStyled = styled.div`
   display: flex;
@@ -11,4 +11,12 @@ export const SummaryCardContainerStyled = styled.div`
   padding: 1rem;
   
   background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
-` 
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+  }
+`
