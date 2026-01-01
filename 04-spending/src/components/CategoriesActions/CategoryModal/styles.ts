@@ -1,8 +1,8 @@
 import * as RadixDialog from '@radix-ui/react-dialog'
 import styled from 'styled-components'
 
-export const TransactionModalOverlayStyled = styled(RadixDialog.Overlay)`
-  background-color: color-mix(in srgb, var(--secondary) 20%, transparent);
+export const CategoryModalOverlayStyled = styled(RadixDialog.Overlay)`
+  background-color: color-mix(in srgb, var(--secondary) 50%, transparent);
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -10,12 +10,10 @@ export const TransactionModalOverlayStyled = styled(RadixDialog.Overlay)`
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99;
+  z-index: 999;
 `
 
-export const TransactionModalContentStyled = styled(RadixDialog.Content)<{
-	isAnotherModalOpen?: boolean
-}>`
+export const CategoryModalContentStyled = styled(RadixDialog.Content)`
   min-width: 32rem;
   padding: 2rem;
   border-radius: var(--radius);
@@ -30,7 +28,6 @@ export const TransactionModalContentStyled = styled(RadixDialog.Content)<{
 
   color: var(--primary-foreground);
   background-color: var(--primary);
-  display: ${(props) => (props.isAnotherModalOpen ? 'none' : 'flex')};
 
   & > div:first-child {
     display: flex;
@@ -67,12 +64,5 @@ export const TransactionModalContentStyled = styled(RadixDialog.Content)<{
   /* errors.description */
   form > div > span {
     color: var(--destructive);
-  }
-
-  form > div > .inline {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
   }
 `

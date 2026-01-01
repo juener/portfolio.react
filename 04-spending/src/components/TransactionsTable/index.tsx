@@ -2,7 +2,7 @@ import * as RadixDialog from '@radix-ui/react-dialog'
 import { Edit } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { formatValue } from '@/format-values'
-import { useGetTransactions } from '@/hooks/use-get-transactions'
+import { useGetTransactions } from '@/hooks/transactions/use-get-transactions'
 import { TransactionModal } from '../TransactionsActions/TransactionModal'
 import { TransactionsContainerStyled } from './styles'
 

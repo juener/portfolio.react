@@ -54,5 +54,40 @@
       "category": "transport",
       "type": "income"
     }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Food"
+    },
+    {
+      "id": "2",
+      "name": "Health"
+    },
+    {
+      "id": "05b8",
+      "name": "One More"
+    },
+    {
+      "id": "9903",
+      "name": "School"
+    }
+  ],
+  "currencies": [
+    {
+      "id": "1",
+      "name": "American Dollar",
+      "initials": "USD"
+    },
+    {
+      "id": "2",
+      "name": "Brazilian Real",
+      "initials": "BRL"
+    },
+    {
+      "id": "feae",
+      "name": "Euro",
+      "initials": "EUR"
+    }
   ]
 }

@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import type { Currency } from '@/@types/Currency'
-import { useGetTransactions } from '@/hooks/use-get-transactions'
+import type { CurrencyInitials } from '@/@types/Currency'
+import { useGetTransactions } from '@/hooks/transactions/use-get-transactions'
 import { SummaryCard } from './SummaryCard'
 import { SummarySectionContainerStyled } from './styles'
 
-const CONVERSIONS_BY_CURRENCY: Record<Currency, Record<Currency, number>> = {
+const CONVERSIONS_BY_CURRENCY: Record<CurrencyInitials, Record<CurrencyInitials, number>> = {
 	USD: {
 		USD: 1,
 		BRL: 5.5,
@@ -43,7 +43,7 @@ export function SummarySection() {
 
 					acc[sourceCurrency].value += amount
 
-					const currencies: Currency[] = ['USD', 'BRL', 'EUR', 'GBP']
+					const currencies: CurrencyInitials[] = ['USD', 'BRL', 'EUR', 'GBP']
 					for (const targetCurrency of currencies) {
 						const conversionRate = CONVERSIONS_BY_CURRENCY[sourceCurrency][targetCurrency]
 						acc[targetCurrency].convertedValue += amount * conversionRate

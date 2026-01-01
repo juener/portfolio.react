@@ -11,8 +11,8 @@ To start the backend execute ```npm run dev:server``` it's going to be ran at ht
 To perform the frontend execute ```npm run dev``` it's going to be ran at http://localhost:3000
 
 - [x] Transactions CRUD
-- [ ] Transactions search
-- [ ] Balance per currency
-- [ ] Balance converted to a specific currency
+- [x] Transactions search
+- [x] Balance per currency
+- [x] Balance converted to a specific currency
 - [ ] Categories CRUD
 - [ ] Currencies CRUD
