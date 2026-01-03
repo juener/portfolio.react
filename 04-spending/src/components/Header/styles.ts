@@ -16,8 +16,18 @@ export const HeaderContentStyled = styled.div`
   margin-inline: auto;
   height: 100%;
 
+  @media (max-width: 480px) {
+    padding: 1rem;
+    justify-content: end;
+  }
+
   img {
     height: 100%;
     object-fit: contain;
+
+    @media (max-width: 480px) {
+      /* or change the logo size */
+      display: none;
+    }
   }
 `

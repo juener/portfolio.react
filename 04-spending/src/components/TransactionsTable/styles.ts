@@ -1,7 +1,13 @@
 import styled from 'styled-components'
 
+export const TransactionsTableWrapperStyled = styled.div`
+  width: 100%;
+  overflow-x: auto;
+`
+
 export const TransactionsContainerStyled = styled.table`
   width: 100%;
+  min-width: 600px;
   border-collapse: collapse;
   border-radius: var(--radius);
   overflow: hidden;

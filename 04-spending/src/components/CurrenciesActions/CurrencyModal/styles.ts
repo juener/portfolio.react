@@ -29,6 +29,10 @@ export const CurrencyModalContentStyled = styled(RadixDialog.Content)`
   color: var(--primary-foreground);
   background-color: var(--primary);
 
+  @media (max-width: 480px) {
+    min-width: 90%;
+  }
+
   & > div:first-child {
     display: flex;
     align-items: center;

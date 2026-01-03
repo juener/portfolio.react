@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const TransactionsActionsContainerStyled = styled.form`
   display: flex;
@@ -11,4 +11,9 @@ export const TransactionsActionsContainerStyled = styled.form`
 
   background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
 
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: end;
+    gap: 0.5rem;
+  }
 `

@@ -33,7 +33,9 @@ export const ButtonStyled = styled.button<ButtonProps>`
   align-items: center;
   justify-content: center;
   border-radius: var(--radius);
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  white-space: nowrap;
 
   &:hover {
     background-color: color-mix(in srgb, var(--secondary) 10%, transparent);

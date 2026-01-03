@@ -8,9 +8,9 @@ export const TransactionsFilterContainerStyled = styled.div`
   max-width: var(--container-max-width);
   margin-inline: auto;
   height: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: var(--radius);
   gap: 1rem;
 
-  background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
+  /* background-color: color-mix(in srgb, var(--secondary) 10%, transparent); */
 `

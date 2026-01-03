@@ -28,6 +28,10 @@ export const TransactionModalContentStyled = styled(RadixDialog.Content)<{
   flex-direction: column;
   gap: 1rem;
 
+  @media (max-width: 480px) {
+    min-width: 90%;
+  }
+
   color: var(--primary-foreground);
   background-color: var(--primary);
   display: ${(props) => (props.isAnotherModalOpen ? 'none' : 'flex')};

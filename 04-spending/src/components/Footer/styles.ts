@@ -8,6 +8,7 @@ export const FooterContainerStyled = styled.footer`
 
   position: fixed;
   bottom: 0;
+  padding-inline: 1rem;
 `
 
 export const FooterContentStyled = styled.div`

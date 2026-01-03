@@ -7,9 +7,7 @@ export function Header() {
 		<HeaderContainerStyled>
 			<HeaderContentStyled>
 				<img src={Logo} alt='' />
-				<Button>
-					<span>Login</span>
-				</Button>
+				<Button>Login</Button>
 			</HeaderContentStyled>
 		</HeaderContainerStyled>
 	)

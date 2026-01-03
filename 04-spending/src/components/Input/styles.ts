@@ -5,7 +5,7 @@ export const InputStyled = styled.input`
   padding: 0.5rem;
   border-radius: var(--radius);
   border: none;
-  height: 4rem;
+  height: 2.5rem;
 
   background-color: color-mix(in srgb, var(--secondary) 10%, transparent);
   color: var(--primary-foreground);

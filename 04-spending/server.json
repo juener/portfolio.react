@@ -1,15 +1,6 @@
 {
   "transactions": [
     {
-      "id": "2",
-      "description": "Rent",
-      "amountInCents": "2002",
-      "currency": "USD",
-      "dueDate": "2025-01-01",
-      "category": "health",
-      "type": "income"
-    },
-    {
       "id": "1377",
       "description": "Salary",
       "amountInCents": "10",
